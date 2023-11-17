@@ -2,7 +2,7 @@
 ## 题目： 为枚举交通信号灯实现一个 trait
 ## 代码详见:traffic_light.rs
 
-代码截图如下：
+代码及测试截图如下：
 
 ![../traffic.png](../traffic.png)
 
