@@ -1,11 +1,11 @@
 # 13 期 Substrate 入门课程第五次作业
-## 说明： 仅上传关键代码，没有单独上传本地能运行的`substrate-node-template`项目。为了保持作业repo的简洁，相关的`Cargo.toml` 及 runtime中的相关修改没有上传。
+## 说明： 为了保持作业repo的简洁，仅上传关键代码！没有单独上传本地能运行的`substrate-node-template`项目，其他相关的`Cargo.toml` 及 runtime中的相关代码修改没有上传。
 
 ## 题目：
 1.  实现存证模块的功能，包括：创建存证；撤销存证。
 2. 为存证模块添加新的功能，转移存证，接收两个参数，一个是包含的哈希值，另一个是存证的接收账户地址。
 
-## 代码实现详见： src/lib.rs
+## 代码实现详见： https://github.com/daoyee/oneblock_homework/blob/main/src/pallet_poe/lib.rs
 
 ## 部分代码截图如下：
 * 创建存证
