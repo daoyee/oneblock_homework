@@ -20,10 +20,11 @@ const subscribeSomethingStoredEvent =  async (api: ApiPromise) => {
             // 筛选出正确的pallet和event，然后打印出something中存储的新值。
             if (event.section === 'templateModule' && event.method === 'SomethingStored') {
                 console.log("发生了事件: SomethingStored")
+                const { data } = event.toJSON();
+                console.log('事件的内容为： ',data);
                 const storedValue = event.data[0].toString();
                 console.log('更新后的值:', storedValue);
               }
-
         });
     });
 }
